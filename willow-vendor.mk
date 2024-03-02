@@ -3594,6 +3594,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/willow/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    IFAAService \
     SoterService \
     CACertService \
     CneApp \
